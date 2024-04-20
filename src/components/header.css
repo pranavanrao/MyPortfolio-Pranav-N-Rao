@@ -1,0 +1,29 @@
+.App-header {
+    background-color: #FFCC9E;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 3rem;
+}
+
+.Header-profile-image {
+    width: 25rem;
+    border-radius: 50%;
+}
+
+.Header-section-title {
+    background-color: #FF00FF33;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Header-title {
+    font-size: 5rem;
+}
+
+.carousel-item.active {
+    display: block;
+}
