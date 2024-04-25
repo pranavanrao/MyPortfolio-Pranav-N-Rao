@@ -1,7 +1,7 @@
 import React from "react";
 import CarouselSlider from "./CarouselSlider";
 import "./header.css";
-import ProfileImage from "../resources/img_avatar.png";
+import ProfileImage from "../resources/mypic.jpeg";
 
 function Header() {
     return (
