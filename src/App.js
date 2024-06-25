@@ -1,13 +1,12 @@
 import './App.css';
 import './components/Header';
 import Header from './components/Header';
-import CarouselSlider from './components/CarouselSlider';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      {/* <CarouselSlider /> */}
+      {/* <div style={{ height: "40rem", backgroundColor: "#FF00FF" }}>Dummy div</div> */}
     </div>
   );
 }
