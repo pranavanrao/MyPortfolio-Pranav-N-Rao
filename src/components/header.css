@@ -1,5 +1,5 @@
 .header {
-    height: 40rem;
+    height: 30rem;
     background: url('../resources/header-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,16 +14,29 @@
     position: absolute;
     width: 10rem;
     right: 10rem;
-    bottom: 3.3rem;
+    top: 20rem;
 }
 
 .helmet_img {
     position: absolute;
-    width: 8rem;
-    top: 4rem;
-    left: 5rem;
+    width: 7rem;
+    top: 3rem;
+    left: 4rem;
     animation: rotate 10s linear infinite;
-    /* Apply the rotation animation */
+}
+
+.saturn_img {
+    position: absolute;
+    width: 5rem;
+    right: 2rem;
+    top: 2rem;
+}
+
+.spaceman_img {
+    position: absolute;
+    width: 5rem;
+    top: 25rem;
+    left: 10rem;
 }
 
 @keyframes rotate {
@@ -49,4 +62,62 @@
 
 .carousel-item.active {
     display: block;
+}
+
+.carousel_text {
+    font-size: 2rem;
+}
+
+/* Media Query for Tablets */
+@media (max-width: 1024px) {
+    .moon_img {
+        right: 5rem;
+    }
+
+    .helmet_img {
+        width: 6rem;
+        top: 3rem;
+        left: 3rem;
+    }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .header {
+        height: 40rem;
+    }
+
+    .moon_img {
+        width: 8rem;
+        top: 32rem;
+        right: 0;
+    }
+
+    .helmet_img {
+        width: 5rem;
+        top: 2rem;
+        left: 2rem;
+    }
+
+    .saturn_img {
+        width: 4rem;
+    }
+
+    .spaceman_img {
+        width: 4rem;
+        top: 36rem;
+        left: 3rem;
+    }
+
+    .header_section_title {
+        width: 100%;
+    }
+
+    .header_title {
+        font-size: 3rem;
+    }
+
+    .carousel_text {
+        font-size: 1.5rem;
+    }
 }
