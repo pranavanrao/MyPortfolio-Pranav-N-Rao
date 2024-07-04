@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio-Pranav-N-Rao/static/css/main.5fd1733e.css",
+    "main.js": "/MyPortfolio-Pranav-N-Rao/static/js/main.b91a8960.js",
+    "static/js/453.83234151.chunk.js": "/MyPortfolio-Pranav-N-Rao/static/js/453.83234151.chunk.js",
+    "static/media/header-bg.jpg": "/MyPortfolio-Pranav-N-Rao/static/media/header-bg.c476544e5d23a26eb3de.jpg",
+    "static/media/moon.png": "/MyPortfolio-Pranav-N-Rao/static/media/moon.fa365a254c43cfc95431.png",
+    "static/media/saturn.png": "/MyPortfolio-Pranav-N-Rao/static/media/saturn.fe67a972d92fdf1844b9.png",
+    "static/media/astronaut-helmet.png": "/MyPortfolio-Pranav-N-Rao/static/media/astronaut-helmet.67858dc77495e894dc29.png",
+    "static/media/spaceman.png": "/MyPortfolio-Pranav-N-Rao/static/media/spaceman.6360c81be92845e95b7c.png",
+    "index.html": "/MyPortfolio-Pranav-N-Rao/index.html",
+    "main.5fd1733e.css.map": "/MyPortfolio-Pranav-N-Rao/static/css/main.5fd1733e.css.map",
+    "main.b91a8960.js.map": "/MyPortfolio-Pranav-N-Rao/static/js/main.b91a8960.js.map",
+    "453.83234151.chunk.js.map": "/MyPortfolio-Pranav-N-Rao/static/js/453.83234151.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5fd1733e.css",
+    "static/js/main.b91a8960.js"
+  ]
+}
