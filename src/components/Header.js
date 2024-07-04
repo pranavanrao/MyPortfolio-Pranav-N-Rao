@@ -1,12 +1,12 @@
 import React from "react";
 
 import CarouselSlider from "./CarouselSlider";
-import moon from "../resources/moon.png";
-import helmet from "../resources/astronaut-helmet.png";
-import saturn from "../resources/saturn.png";
-import spaceman from "../resources/spaceman.png";
+import moon from "./images/header/moon.png";
+import helmet from "./images/header/astronaut-helmet.png";
+import saturn from "./images/header/saturn.png";
+import spaceman from "./images/header/spaceman.png";
 
-import "./header.css";
+import "./styles/header.css";
 
 function Header() {
     return (

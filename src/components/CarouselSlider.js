@@ -2,7 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 
-import "./header.css";
+import "./styles/header.css";
 
 function CarouselSlider() {
     return (

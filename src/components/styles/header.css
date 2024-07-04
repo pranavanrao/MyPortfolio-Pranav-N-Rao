@@ -1,6 +1,6 @@
 .header {
     height: 30rem;
-    background: url('../resources/header-bg.jpg');
+    background: url('../images/header/header-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
