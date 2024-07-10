@@ -8,6 +8,7 @@
     justify-content: space-around;
     font-size: calc(10px + 2vmin);
     color: white;
+    font-family: FreeMono, monospace;
 }
 
 .moon_img {

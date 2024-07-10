@@ -1,0 +1,27 @@
+.profile {
+    margin: 2rem 8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile_img {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.profile_about {
+    padding: 3rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.profile_about_title {
+    font-size: 3rem;
+}
+
+.profile_about_info {
+    font-size: 2rem;
+    text-align: left;
+}
