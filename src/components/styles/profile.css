@@ -24,3 +24,41 @@
     font-size: 2rem;
     text-align: left;
 }
+
+/* Media Query for Tablets */
+@media (max-width: 1024px) {
+    .profile {
+        margin: 2rem 6rem;
+    }
+
+    .profile_about {
+        padding: 2rem;
+    }
+
+    .profile_about_title {
+        font-size: 2rem;
+    }
+
+    .profile_about_info {
+        font-size: 1rem;
+    }
+}
+
+/* Media Query for small tablets */
+@media (max-width: 820px) {
+    .profile {
+        margin: 2rem 4rem;
+    }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .profile {
+        margin: 2rem 2rem;
+        flex-direction: column;
+    }
+
+    .profile_img {
+        width: 100%;
+    }
+}
