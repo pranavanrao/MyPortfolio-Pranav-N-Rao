@@ -7,6 +7,8 @@
 
 .profile_img {
     width: 30%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .profile_about {
@@ -23,6 +25,16 @@
 .profile_about_info {
     font-size: 2rem;
     text-align: left;
+}
+
+.prafile_contact {
+    margin: 2rem 14rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.prafile_contact_img {
+    width: 3rem;
 }
 
 /* Media Query for Tablets */
@@ -60,5 +72,9 @@
 
     .profile_img {
         width: 100%;
+    }
+
+    .prafile_contact {
+        margin: 2rem 2rem;
     }
 }

@@ -18,7 +18,7 @@ function Header() {
             <header className="header">
                 <div className="header_section_title">
                     <div className="header_title">PRANAV N RAO</div>
-                    <div className="header_title_designation">Sr. Software Developer</div>
+                    <div className="header_title_designation">Sr. Associate Software Developer</div>
                     <CarouselSlider />
                 </div>
             </header>
