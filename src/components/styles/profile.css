@@ -37,6 +37,31 @@
     width: 3rem;
 }
 
+.profile_resume {
+    margin: 5rem 8rem;
+    padding: 2rem;
+    border-radius: 20px;
+    border: 2px solid #5DADE2;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_resume:hover {
+    border: 0;
+    box-shadow: #5DADE2 0px 5px 15px;
+}
+
+.profile_resume_img {
+    width: 5rem;
+    margin-bottom: 1rem;
+}
+
+.profile_resume_text {
+    color: #5DADE2;
+}
+
 /* Media Query for Tablets */
 @media (max-width: 1024px) {
     .profile {
@@ -53,6 +78,10 @@
 
     .profile_about_info {
         font-size: 1rem;
+    }
+
+    .profile_resume {
+        margin: 4rem 6rem;
     }
 }
 
@@ -76,5 +105,9 @@
 
     .prafile_contact {
         margin: 2rem 2rem;
+    }
+
+    .profile_resume {
+        margin: 4rem;
     }
 }

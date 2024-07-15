@@ -3,6 +3,7 @@ import React from "react";
 import ProfileSocialData from "./data/ProfileSocialData";
 
 import profilePic from "./images/profile/mypic.jpeg";
+import downloadImg from "./images/profile/download-circular-button.png";
 
 import "./styles/profile.css";
 
@@ -23,7 +24,14 @@ function Profile() {
                     <a target="_blank" href={social.link}><img key={index} className="prafile_contact_img" src={social.src} alt={social.alt} /></a>
                 ))}
             </div>
-        </section>
+
+            <a style={{ textDecoration: "none" }} href="">
+                <div className="profile_resume">
+                    <img className="profile_resume_img" src={downloadImg} alt="download img" />
+                    <span className="profile_resume_text">Download my resume</span>
+                </div>
+            </a>
+        </section >
     )
 }
 

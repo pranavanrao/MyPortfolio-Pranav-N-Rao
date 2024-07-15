@@ -10,7 +10,7 @@ function App() {
 
       <Profile />
 
-      {/* <div style={{ height: "40rem", backgroundColor: "#FF00FF" }}>Dummy div</div> */}
+      <div style={{ backgroundColor: "#000", color: "#fff", padding: "3rem" }}>Website is still under the maintenance. The further sections will be updated soon.</div>
     </div>
   );
 }
