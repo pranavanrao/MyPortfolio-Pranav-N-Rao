@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MyPortfolio-Pranav-N-Rao/static/css/main.46d0fad1.css",
-    "main.js": "/MyPortfolio-Pranav-N-Rao/static/js/main.643e9627.js",
+    "main.js": "/MyPortfolio-Pranav-N-Rao/static/js/main.84334055.js",
     "static/js/453.83234151.chunk.js": "/MyPortfolio-Pranav-N-Rao/static/js/453.83234151.chunk.js",
     "static/media/mypic.jpeg": "/MyPortfolio-Pranav-N-Rao/static/media/mypic.7099dd3e441fb141f014.jpeg",
     "static/media/header-bg.jpg": "/MyPortfolio-Pranav-N-Rao/static/media/header-bg.c476544e5d23a26eb3de.jpg",
@@ -13,6 +13,7 @@
     "static/media/agile.png": "/MyPortfolio-Pranav-N-Rao/static/media/agile.49fd5e2b16374179932a.png",
     "static/media/python.png": "/MyPortfolio-Pranav-N-Rao/static/media/python.07a98139a3638f2a224b.png",
     "static/media/download-circular-button.png": "/MyPortfolio-Pranav-N-Rao/static/media/download-circular-button.919e34d380beb98153b8.png",
+    "static/media/qtlogo.png": "/MyPortfolio-Pranav-N-Rao/static/media/qtlogo.03e072a37d229fc15640.png",
     "static/media/cpp.png": "/MyPortfolio-Pranav-N-Rao/static/media/cpp.24a8f93854ab092f17a7.png",
     "static/media/linux.png": "/MyPortfolio-Pranav-N-Rao/static/media/linux.8f43b47d4911fa04d8f3.png",
     "static/media/coding.png": "/MyPortfolio-Pranav-N-Rao/static/media/coding.6b43ee7c655f205d7c60.png",
@@ -29,11 +30,11 @@
     "static/media/js.png": "/MyPortfolio-Pranav-N-Rao/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/MyPortfolio-Pranav-N-Rao/index.html",
     "main.46d0fad1.css.map": "/MyPortfolio-Pranav-N-Rao/static/css/main.46d0fad1.css.map",
-    "main.643e9627.js.map": "/MyPortfolio-Pranav-N-Rao/static/js/main.643e9627.js.map",
+    "main.84334055.js.map": "/MyPortfolio-Pranav-N-Rao/static/js/main.84334055.js.map",
     "453.83234151.chunk.js.map": "/MyPortfolio-Pranav-N-Rao/static/js/453.83234151.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.46d0fad1.css",
-    "static/js/main.643e9627.js"
+    "static/js/main.84334055.js"
   ]
 }
