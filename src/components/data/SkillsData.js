@@ -1,4 +1,5 @@
 import cpp from "../images/skills/cpp.png";
+import qt from "../images/skills/qtlogo.png";
 import js from "../images/skills/js.png";
 import hmi from "../images/skills/machines.png";
 import web from "../images/skills/coding.png";
@@ -14,8 +15,9 @@ import agile from "../images/skills/agile.png";
 
 const SkillsData = [
     { src: cpp, alt: "C++", title: "C++" },
-    { src: js, alt: "JS", title: "JavaScript" },
+    { src: qt, alt: "QT", title: "QT" },
     { src: hmi, alt: "HMI", title: "HMI Developement" },
+    { src: js, alt: "JS", title: "JavaScript" },
     { src: web, alt: "Web Development", title: "Web Development" },
     { src: android, alt: "Android Development", title: "Android Development" },
     { src: html, alt: "HTML", title: "HTML5" },
