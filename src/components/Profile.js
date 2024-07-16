@@ -5,6 +5,7 @@ import ProfileSocialData from "./data/ProfileSocialData";
 import profilePic from "./images/profile/mypic.jpeg";
 import downloadImg from "./images/profile/download-circular-button.png";
 
+import "../App.css";
 import "./styles/profile.css";
 
 function Profile() {
@@ -14,7 +15,7 @@ function Profile() {
                 <img className="profile_img" src={profilePic} alt="Profile pic" />
 
                 <div className="profile_about">
-                    <div className="profile_about_title">About me ...</div>
+                    <div className="main_heading">About me ...</div>
                     <div className="profile_about_info">Hi, I'm Pranav, a 25-year-old software developer based in Bengaluru, India. As a <b>Sr. Associate Software Developer</b>, I currently work with the talented team at <a style={{ textDecoration: "none" }} href="https://pthinks.com/" target="_blank">Pthinks</a>. Feel free to explore my skills or connect with me on LinkedIn. I'm always eager to collaborate with like-minded professionals. Let's discuss opportunities over a coffee.</div>
                 </div>
             </div>

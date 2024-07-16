@@ -18,10 +18,6 @@
     align-items: start;
 }
 
-.profile_about_title {
-    font-size: 3rem;
-}
-
 .profile_about_info {
     font-size: 2rem;
     text-align: left;
@@ -72,10 +68,6 @@
         padding: 2rem;
     }
 
-    .profile_about_title {
-        font-size: 2rem;
-    }
-
     .profile_about_info {
         font-size: 1rem;
     }
@@ -95,7 +87,7 @@
 /* Media Query for Mobile Devices */
 @media (max-width: 768px) {
     .profile {
-        margin: 2rem 2rem;
+        margin: 1rem;
         flex-direction: column;
     }
 
@@ -103,11 +95,20 @@
         width: 100%;
     }
 
+    .profile_about {
+        padding: 0;
+    }
+
     .prafile_contact {
-        margin: 2rem 2rem;
+        margin: 2rem 1rem;
     }
 
     .profile_resume {
-        margin: 4rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .profile_resume_img {
+        width: 4rem;
     }
 }

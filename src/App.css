@@ -1,3 +1,15 @@
 .App {
   text-align: center;
 }
+
+.main_heading {
+  font-size: 3rem;
+  text-align: left;
+}
+
+/* Media Query for Tablets */
+@media (max-width: 1024px) {
+  .main_heading {
+    font-size: 2rem;
+  }
+}
