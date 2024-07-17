@@ -52,3 +52,10 @@
     background-color: #00000000;
     color: black;
 }
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .err_oops {
+        font-size: 5rem;
+    }
+}
