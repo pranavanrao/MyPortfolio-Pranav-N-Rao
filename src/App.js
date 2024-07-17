@@ -1,20 +1,23 @@
-import Header from './components/Header';
-import Profile from './components/Profile';
-import Skills from './components/Skills';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import './App.css';
 
+import Landing from './components/Landing';
+import Error from './components/Error';
+
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <BrowserRouter>
+      <div className="App">
 
-      <Profile />
+        <Routes>
+          <Route path='/MyPortfolio-Pranav-N-Rao/' element={<Landing />} />
+          <Route path="*" element={<Error />} />
+        </Routes>
 
-      <Skills />
-
-      <div style={{ backgroundColor: "#000", color: "#fff", padding: "3rem" }}>Website is still under the maintenance. The further sections will be updated soon.</div>
-    </div>
+        <div style={{ backgroundColor: "#000", color: "#fff", padding: "3rem" }}>Website is still under the maintenance. The further sections will be updated soon.</div>
+      </div>
+    </BrowserRouter>
   );
 }
 

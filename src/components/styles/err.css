@@ -1,0 +1,54 @@
+.err {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.err_oops {
+    font-size: 8rem;
+    background-color: #2f8d46;
+    background-image: url("../images/err/universe-2742113_1280.jpg");
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Steelfish Rg', 'helvetica neue',
+        helvetica, arial, sans-serif;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+}
+
+.err_title {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.err_img {
+    width: 15rem;
+    margin-bottom: 2rem;
+}
+
+.err_info {
+    font-style: italic;
+    color: crimson;
+    margin-bottom: 2rem;
+}
+
+.err_btn {
+    width: fit-content;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.err_btn:hover {
+    background-color: #00000000;
+    color: black;
+}
