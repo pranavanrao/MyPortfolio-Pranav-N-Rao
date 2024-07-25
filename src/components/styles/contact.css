@@ -8,12 +8,20 @@
     align-items: center;
 }
 
+.contact_form_span {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
 .contact_form_input {
     width: 100%;
     margin-top: 1rem;
     padding: 1rem;
     border: 2px solid #5DADE2;
     border-radius: 10px;
+    color: #000000;
 }
 
 .contact_form_input_msg {

@@ -7,6 +7,7 @@ import "./styles/contact.css";
 function ContactMe() {
     const form = useRef();
     const [dialogMessage, setDialogMessage] = useState("");
+    const [type, setType] = useState('text');
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -39,8 +40,14 @@ function ContactMe() {
             <div className="main_heading">Contact Me : </div>
 
             <form className="contact_form" ref={form} onSubmit={sendEmail}>
-                <input className="contact_form_input" placeholder="your-email-id@example.com" type="email" name="user_email" />
-                <input className="contact_form_input" placeholder="Your Name" type="text" name="user_name" />
+                <span className="contact_form_span">
+                    <input className="contact_form_input" placeholder="Your Name" type="text" name="user_name" />
+                    <input className="contact_form_input" placeholder="your-email-id@example.com" type="email" name="user_email" />
+                </span>
+                <span className="contact_form_span">
+                    <input className="contact_form_input" placeholder="DD/MM/YYYY" type={type} name="user_date" onFocus={() => setType('date')} onBlur={() => setType('text')} />
+                    <input className="contact_form_input" placeholder="Your Phone" type="tel" name="user_phone" />
+                </span>
                 <textarea className="contact_form_input contact_form_input_msg" placeholder="Message" name="message" />
                 <input className="contact_form_send" type="submit" value="Send" />
             </form>
