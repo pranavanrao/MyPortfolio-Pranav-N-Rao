@@ -26,7 +26,7 @@ function Profile() {
                 ))}
             </div>
 
-            <a style={{ textDecoration: "none" }} href="">
+            <a style={{ textDecoration: "none" }} target="_blank" href="https://drive.google.com/file/d/1mE49ZQ5qGnQEvVNDlepRxC6Ta-Zh-ysC/view?usp=sharing">
                 <div className="profile_resume">
                     <img className="profile_resume_img" src={downloadImg} alt="download img" />
                     <span className="profile_resume_text">Download my resume</span>
