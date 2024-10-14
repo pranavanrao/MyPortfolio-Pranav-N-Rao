@@ -14,9 +14,18 @@
   right: 2rem;
 }
 
+.main_paragraph {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
 /* Media Query for Tablets */
 @media (max-width: 1024px) {
   .main_heading {
     font-size: 2rem;
+  }
+
+  .main_paragraph {
+    font-size: 1rem;
   }
 }

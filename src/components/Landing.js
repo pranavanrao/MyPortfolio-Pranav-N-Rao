@@ -4,6 +4,7 @@ import Header from './Header';
 import Profile from './Profile';
 import Skills from './Skills';
 import ContactMe from "./ContactMe";
+import Work from "./Work";
 
 function Landing() {
     return (
@@ -13,6 +14,8 @@ function Landing() {
             <Profile />
 
             <Skills />
+
+            <Work />
 
             <ContactMe />
         </>
